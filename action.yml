@@ -1,0 +1,5 @@
+name: 'Daily Leetcode'
+description: 'Fetch daily leetcode challenge'
+runs:
+  using: 'node16'
+  main: 'index.js'
