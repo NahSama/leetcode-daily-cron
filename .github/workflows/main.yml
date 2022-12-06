@@ -1,0 +1,9 @@
+name: Fetch leetcode daily challenge
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: NahSama/leetcode-daily-cron@v1
