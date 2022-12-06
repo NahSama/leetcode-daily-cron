@@ -7,4 +7,4 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
-      - uses: NahSama/leetcode-daily-cron@v1
+      - uses: NahSama/leetcode-daily-cron
