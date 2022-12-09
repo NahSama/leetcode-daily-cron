@@ -45,6 +45,7 @@ const fetchDailyCodingChallenge = async () => {
         headers: {
             Accept: "application/json",
             "Content-Type": "application/json;charset=UTF-8",
+            "Accept-Encoding": "gzip,deflate,compress"
           },
     })
 
