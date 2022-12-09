@@ -5,6 +5,6 @@ on:
   workflow_dispatch:
 jobs:
   fetch:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: NahSama/leetcode-daily-cron@v1.0.0
